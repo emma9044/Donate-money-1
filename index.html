@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" ><h1 id="dmt">RSPCA</h1></a>
+    <div class="key">
+      <a href="report" class ="key1"><strong>Report</strong></a></li>
+      <a id="or"><strong>/</strong></a>
+      <a href="donatem.html" class="key1"><strong>Donate</strong></a></li>
+    </div>
+		
+      
+    </header>
+    <!-- NAVIGATION: Add your own list item links based on secion IDs and heading elements -->
+    <nav>
+      <ul>
+        <li><a href="#what">What we do</a></li>
+        <ul>
+          <li><a href="#caring">Our role in caring for animals</a></li>
+          <li><a href="#enforcing">Our role in enforcing the law</a></li>
+          <li><a href="aboutus.html">About us</a></li>
+        </ul>
+        <li><a href="#supportus">Support us</a></li>
+        <ul>
+          <li><a href="donatem.html">Donate money</a></li>
+          <li><a href="#donateg">Donate goods</a></li>
+          <li><a href="#volunteer">Become a vounteer</a></li>
+          <li><a href="#bequest">Make a bequest</a></li>
+        </ul>
+        <li><a href="#adopt">Adopt a pet</a></li>
+        <ul>
+          <li><a href="#cat">Cat</a></li>
+          <li><a href="#dog">Dog</a></li>
+          <li><a href="#others">Other animals</a></li>
+        </ul>
+        <li><a href="#foster">Foster care</a></li>
+        <li><a href="#report">Report</a></li>
+      </ul>
+    </nav>
+    <main class="b">
+      <div class="contact">
+        <div class="center"><h1 id="dmh">Donate money<h1></div>
+        <img src="imgs/6.jpg" alt="Norway">
+        
+      </div>
+      <section class="donatem" id="dm1">
+        <div id="circle1">      
+          <div class="mid">1</div>
+        </div>
+        <div id="circle3">
+          <div class="mid">3</div>
+        </div>
+        <div id="circle2">
+          <div class="mid">2</div>
+        </div>
+      <div class="dm">
+        <form action="/action_page.php" class="yd">
+        <h3>Donation amout</h3>
+        <input type="text" name="money" placeholder="$: 20/50/100...">
+        <label for="frequency">Frequency</label>
+          <select id="frequency" name="frequency">
+            <option value="monthly">Monthly</option>
+            <option value="once">One off</option>
+          </select>
+
+          <a href="#dm2">
+          <input id="next" type="submit" value="Next" onclick="window.location.href('#dm2')">
+        </a>
+        </form>
+      </div>
+      </section>
+
+      <section class="donatem" id="dm2">
+        <div id="circle4">
+          <div class="mid">1</div>
+        </div>
+        <div id="circle6">
+          <div class="mid">3</div>
+        </div>
+        <div id="circle5">
+          <div class="mid">2</div>
+        </div>
+        <div class="dm">
+          <form action="/action_page.php" class="yd">
+            <h3>Your detail</h3>
+            <div class="table">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="lname">E-mail</label>
+            <input type="text" id="email" name="email" placeholder="Your e-mail..">
+
+            <label for="lname">Phone number</label>
+            <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+
+            <h3>Your address</h3>
+            <label for="street">Street</label>
+            <input type="text" id="street" name="address" placeholder="Your street..">
+
+            <label for="state">State</label>
+            <input type="text" id="state" name="state" placeholder="Your state..">
+
+            <label for="postcode">Postcode</label>
+            <input type="text" id="code" name="postcode" placeholder="Your postcode..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="china">China</option>
+              <option value="japan">Japan</option>
+              <option value="uk">UK</option>
+              <option value="usa">USA</option>
+              <option value="other">Other</option>
+            </select>
+
+            <a href="#dm3">
+                <input id="next" type="submit" value="Next" onclick="window.location.href('#dm3')">
+            </a>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="donatem" id="dm3">
+        <div id="circle7">
+          <div class="mid">1</div>
+        </div>
+        <div id="circle9">
+          <div class="mid">3</div>
+        </div>
+        <div id="circle8">
+          <div class="mid">2</div>
+        </div>
+        <div class="dm">
+          <form action="/action_page.php" class="yd">
+          <h3>Card details</h3>
+            <label for="cname">Card Name</label>
+              <input type="text" id="cname" name="cardname" placeholder="Your card name..">
+
+            <label for="cnum">Card Number</label>
+              <input type="text" id="cnum" name="cardnumber" placeholder="Your card number..">
+
+            <label for="cexpriy">Card Expriy</label>
+              <input type="text" id="cexpriy" name="cardexpriy" placeholder="Your card expriy..">
+
+            <label for="cccv">Card CCV</label>
+              <input type="text" id="cccv" name="cardccv" placeholder="Your card ccv.."> 
+              <input type="submit" value="Confirm" id="sub"> 
+            </div> 
+          </form>
+        
+      </section>
+
+    </main>
+    <footer>
+      [Zoey Jiang] - [490558762]
+    </footer>
+</body>
+</html>
